@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bang.MainActivity"
+    android:background="@drawable/west"
+    >
+
+    <ImageView
+        android:id="@+id/kosc1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/unborder"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toTopOf="@+id/but1"
+        app:layout_constraintEnd_toStartOf="@+id/kosc2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/kosc2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/unborder"
+        app:layout_constraintBottom_toTopOf="@+id/but2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kosc1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        app:srcCompat="@drawable/quest"
+        android:contentDescription="@string/desc"/>
+
+    <ImageView
+        android:id="@+id/kosc3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/unborder"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toTopOf="@+id/Panel1"
+        app:layout_constraintEnd_toStartOf="@+id/but2"
+        app:layout_constraintStart_toEndOf="@+id/but1"
+        app:layout_constraintTop_toBottomOf="@+id/Panel3"
+        app:layout_constraintVertical_bias="0.096"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/kosc4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/unborder"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kosc5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but1"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/kosc5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kosc4"
+        app:layout_constraintTop_toBottomOf="@+id/but2"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/quest"
+        android:background="@drawable/unborder"
+        android:contentDescription="@string/desc"/>
+
+    <ImageView
+        android:id="@+id/Panel1"
+        android:layout_width="126dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kosc3"
+        app:srcCompat="@drawable/przyklad" />
+
+    <ImageView
+        android:id="@+id/Panel2"
+        android:layout_width="91dp"
+        android:layout_height="126dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/but1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/przyklad2" />
+
+    <ImageView
+        android:id="@+id/Panel3"
+        android:layout_width="126dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/kosc3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/przyklad3"
+        android:contentDescription="@string/desc"/>
+
+    <ImageView
+        android:id="@+id/Panel4"
+        android:layout_width="91dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/but2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/przyklad4" />
+
+    <ImageView
+        android:id="@+id/but1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kosc3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_change"
+        android:contentDescription="@string/desc"/>
+
+    <ImageView
+        android:id="@+id/but2"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="70dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kosc3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_confirm" />
+
+    <TextView
+        android:id="@+id/p1hptx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel1"
+        app:layout_constraintEnd_toEndOf="@+id/Panel1"
+        app:layout_constraintStart_toStartOf="@+id/Panel1"
+        app:layout_constraintTop_toTopOf="@+id/Panel1" />
+
+    <TextView
+        android:id="@+id/p1arrowtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel1"
+        app:layout_constraintEnd_toEndOf="@+id/Panel1"
+        app:layout_constraintStart_toStartOf="@+id/Panel1"
+        app:layout_constraintTop_toTopOf="@+id/Panel1" />
+
+    <TextView
+        android:id="@+id/P1name"
+        android:layout_width="125dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Panel1"
+        app:layout_constraintEnd_toStartOf="@+id/kosc5"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toEndOf="@+id/kosc4"
+        app:layout_constraintTop_toBottomOf="@+id/kosc3"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <TextView
+        android:id="@+id/P2name"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/but1"
+        app:layout_constraintStart_toEndOf="@+id/Panel2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/P3name"
+        android:layout_width="125dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/kosc3"
+        app:layout_constraintEnd_toStartOf="@+id/kosc2"
+        app:layout_constraintStart_toEndOf="@+id/kosc1"
+        app:layout_constraintTop_toBottomOf="@+id/Panel3" />
+
+    <TextView
+        android:id="@+id/P4name"
+        android:layout_width="125dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Panel4"
+        app:layout_constraintStart_toEndOf="@+id/but2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p2arrowtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel2"
+        app:layout_constraintEnd_toEndOf="@+id/Panel2"
+        app:layout_constraintStart_toStartOf="@+id/Panel2"
+        app:layout_constraintTop_toTopOf="@+id/Panel2" />
+
+    <TextView
+        android:id="@+id/p2hptx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel2"
+        app:layout_constraintEnd_toEndOf="@+id/Panel2"
+        app:layout_constraintStart_toStartOf="@+id/Panel2"
+        app:layout_constraintTop_toTopOf="@+id/Panel2" />
+
+    <TextView
+        android:id="@+id/p3arrowtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel3"
+        app:layout_constraintEnd_toEndOf="@+id/Panel3"
+        app:layout_constraintStart_toStartOf="@+id/Panel3"
+        app:layout_constraintTop_toTopOf="@+id/Panel3" />
+
+    <TextView
+        android:id="@+id/p3hptx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel3"
+        app:layout_constraintEnd_toEndOf="@+id/Panel3"
+        app:layout_constraintStart_toStartOf="@+id/Panel3"
+        app:layout_constraintTop_toTopOf="@+id/Panel3" />
+
+    <TextView
+        android:id="@+id/p4arrowtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel4"
+        app:layout_constraintEnd_toEndOf="@+id/Panel4"
+        app:layout_constraintStart_toStartOf="@+id/Panel4"
+        app:layout_constraintTop_toTopOf="@+id/Panel4" />
+
+    <TextView
+        android:id="@+id/p4hptx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/point"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel4"
+        app:layout_constraintEnd_toEndOf="@+id/Panel4"
+        app:layout_constraintStart_toStartOf="@+id/Panel4"
+        app:layout_constraintTop_toTopOf="@+id/Panel4" />
+
+    <ImageView
+        android:id="@+id/shot1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Panel1"
+        app:layout_constraintTop_toBottomOf="@+id/kosc5"
+        app:srcCompat="@drawable/przyd" />
+
+    <ImageView
+        android:id="@+id/shot2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="68dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kosc4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Panel2"
+        app:srcCompat="@drawable/przyd90" />
+
+    <ImageView
+        android:id="@+id/shot4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toTopOf="@+id/Panel4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kosc2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/przyd270" />
+
+    <ImageView
+        android:id="@+id/shot3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toTopOf="@+id/kosc1"
+        app:layout_constraintEnd_toStartOf="@+id/Panel3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/przyd180" />
+
+    <ImageView
+        android:id="@+id/rview4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel4"
+        app:layout_constraintEnd_toEndOf="@+id/Panel4"
+        app:layout_constraintStart_toStartOf="@+id/Panel4"
+        app:layout_constraintTop_toTopOf="@+id/Panel4"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/rview2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel2"
+        app:layout_constraintEnd_toEndOf="@+id/Panel2"
+        app:layout_constraintStart_toStartOf="@+id/Panel2"
+        app:layout_constraintTop_toTopOf="@+id/Panel2"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/rview3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel3"
+        app:layout_constraintEnd_toEndOf="@+id/Panel3"
+        app:layout_constraintStart_toStartOf="@+id/Panel3"
+        app:layout_constraintTop_toTopOf="@+id/Panel3"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/rview1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel1"
+        app:layout_constraintEnd_toEndOf="@+id/Panel1"
+        app:layout_constraintStart_toStartOf="@+id/Panel1"
+        app:layout_constraintTop_toBottomOf="@+id/P1name"
+        app:srcCompat="@drawable/quest" />
+
+    <ImageView
+        android:id="@+id/cview1"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/rview1"
+        app:layout_constraintEnd_toEndOf="@+id/Panel1"
+        app:layout_constraintStart_toStartOf="@+id/Panel1"
+        app:layout_constraintTop_toTopOf="@+id/Panel1"
+        app:srcCompat="@drawable/calamity_janet" />
+
+    <ImageView
+        android:id="@+id/cview2"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel2"
+        app:layout_constraintEnd_toEndOf="@+id/Panel2"
+        app:layout_constraintStart_toEndOf="@+id/rview2"
+        app:layout_constraintTop_toTopOf="@+id/Panel2"
+        app:srcCompat="@drawable/calamity_janet" />
+
+    <ImageView
+        android:id="@+id/cview3"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel3"
+        app:layout_constraintEnd_toEndOf="@+id/Panel3"
+        app:layout_constraintStart_toStartOf="@+id/Panel3"
+        app:layout_constraintTop_toBottomOf="@+id/rview3"
+        app:srcCompat="@drawable/calamity_janet" />
+
+    <ImageView
+        android:id="@+id/cview4"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Panel4"
+        app:layout_constraintEnd_toStartOf="@+id/rview4"
+        app:layout_constraintStart_toStartOf="@+id/Panel4"
+        app:layout_constraintTop_toTopOf="@+id/Panel4"
+        app:srcCompat="@drawable/calamity_janet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

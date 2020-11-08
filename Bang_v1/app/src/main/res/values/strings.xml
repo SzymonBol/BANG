@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BANG!</string>
+    <string name="desc" />
+    <string name="change">change</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="point">X</string>
+
+    <string name="name">Name</string>
+    <string name="user1">Gracz 1:</string>
+    <string name="user2">Gracz 2:</string>
+    <string name="user3">Gracz 3:</string>
+    <string name="user4">Gracz 4:</string>
+    <string name="bwin">Bandyci wygrywają!</string>
+    <string name="again">Zagraj jeszcze raz</string>
+    <string name="wyjdź">Wyjdź</string>
+    <string name="wrosc">Wróć</string>
+</resources>

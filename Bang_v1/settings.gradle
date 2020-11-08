@@ -1,0 +1,2 @@
+rootProject.name='kości'
+include ':app'
